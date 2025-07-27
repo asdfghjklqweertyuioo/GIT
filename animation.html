@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <style>
+            body{
+                 display: flex;
+                 justify-content: center;
+                 align-items: center;
+                  background-color: #000;
+            }
+     .bock{
+        height: 200px;
+        width: 200px;
+        border: 2px solid cyan;
+        box-shadow: 0 0 10px cyan,0 0 10px cyan inset;
+        cursor:progress;
+        animation: box 2s infinite;
+       
+
+     }
+     @keyframes box {
+        
+     form{
+        transform: rotate(0deg); 
+        background-color: #000;
+        scale:0;
+        
+     }
+     to{
+         transform: rotate(134deg); 
+        background-color: aqua;
+        scale: 3;
+     }
+    }
+        </style>
+    </head>
+     <body>
+        <div class="scroll-element">
+            <div class="bock"></div>
+           
+        </div>
+
+     </body>
+
+</html>
